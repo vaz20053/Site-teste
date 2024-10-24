@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Preto</title>
+    <style>
+        body {
+            background-color: black; /* Cor de fundo preta */
+            height: 100vh; /* Altura da tela */
+            margin: 0; /* Remove margens */
+            display: flex; /* Usar Flexbox para centralizar */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            font-family: Arial, sans-serif; /* Fonte do texto */
+        }
+
+        h1 {
+            font-size: 48px; /* Tamanho da fonte */
+            animation: rainbow 3s infinite; /* Animação com duração de 3 segundos e repetição infinita */
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            16.67% { color: orange; }
+            33.33% { color: yellow; }
+            50% { color: green; }
+            66.67% { color: blue; }
+            83.33% { color: purple; }
+            100% { color: red; } /* Volta à cor inicial */
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao Meu Site!</h1>
+</body>
+</html>
